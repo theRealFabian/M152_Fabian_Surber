@@ -1,0 +1,26 @@
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+.kaufen-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 120px;
+}
+
+.checkout {
+  max-width: 500px;
+}

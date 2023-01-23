@@ -1,6 +1,33 @@
 /* You can add global styles to this file, and also import other style files
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
 body {
   margin: 0;
 }
 
+.container {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p, li, label {
+  font-size: 18px;
+  font-family: Inter, serif;
+}
+
+h3 {
+  font-family: Inter, serif;
+  font-size: 24px;
+}
